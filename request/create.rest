@@ -1,0 +1,47 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Andres Gomez",
+  "number": "1234567890"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Juan Perez"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "number": "012345678"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Arto Hellas",
+  "number": "040-123456"
+}
+
+###
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Roger Federer",
+  "number": "123-456789"
+}
