@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for phonebook-backend-copy on 2024-12-11T05:52:30-05:00
+# fly.toml app configuration file generated for phonebook-backend-copy-ancient-fog-434 on 2024-12-11T06:19:38-05:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'phonebook-backend-copy'
+app = 'phonebook-backend-copy-ancient-fog-434'
 primary_region = 'bog'
 
 [build]

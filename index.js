@@ -7,7 +7,7 @@ morgan.token('data', function (req, res) {
   return JSON.stringify({ name: req.body.name, number: req.body.number });
 });
 
-
+app.use(express.static('dist'))
 app.use(cors())
 app.use(express.json());
 app.use(
